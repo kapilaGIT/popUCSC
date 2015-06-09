@@ -1,0 +1,17 @@
+# popUCSC
+
+Welcome!!
+
+I will have more information here in the next version
+
+please key make in the command line
+
+make
+
+then
+
+make install
+
+If you want to clean what make did, then
+
+make clean
