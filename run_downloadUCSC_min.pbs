@@ -1,0 +1,13 @@
+#!/bin/bash -l
+#$ -cwd
+#$ -V
+#$ -j y
+#$ -o log_files/$JOB_NAME.$JOB_ID.output.txt
+#$ -e error_logs/$JOB_NAME.$JOB_ID.error.txt
+#$ -N downUCSC
+#$ -l h_rt=48:0:0
+#$ -l h_vmem=100G
+#$ -pe smp-verbose 1
+#$ -q byslot.q@node03
+
+./run_downloadUCSC_min.sh
